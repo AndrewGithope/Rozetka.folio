@@ -250,8 +250,15 @@ html{
     top: 0;
 }
 
+.aside-items-link{
+    text-decoration: none;
+    color: #414141;
+}
 
-
+.aside-items-link:hover{
+    text-decoration: underline;
+    color: #737676;
+}
 
 
 .aside-card-elements{
@@ -267,6 +274,8 @@ html{
     margin: auto;
 
 }
+
+
 
 .aside-copyright-element{
     margin: auto;
@@ -344,7 +353,9 @@ html{
     margin-top: 10px;
 }
 
-
+.img-item-link{
+    text-decoration: none;
+}
 
 .btn-item{
     color: #fff;
@@ -358,6 +369,14 @@ html{
 
 }
 
+.btn-item:hover{
+    background-color: #031e8d;
+    cursor: pointer;
+}
+
+.image-item-link:hover{
+    cursor: pointer;
+}
 
 .text-item{
     margin-left: 10px;
@@ -384,6 +403,9 @@ html{
 .image-item-element2{
     margin-top: 10px;
 }
+
+
+
 
 
 .main-page{
