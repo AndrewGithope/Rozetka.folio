@@ -60,6 +60,11 @@ html{
 
 }
 
+.header-subtitle-link{
+    text-decoration: none;
+    width: auto;
+}
+
 .title-subtitle{
     color: #ffffff;
     font-family: 'Bebas', sans-serif;
@@ -144,6 +149,7 @@ html{
     margin: auto;
     padding: 5px;
     padding-left: 10px;
+    outline: 0;
 
 }
 
@@ -182,6 +188,7 @@ html{
     color: #fff;
     padding: 10px;
     border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
 }
 
 
@@ -196,10 +203,18 @@ html{
     justify-content: center;
 }
 
+.subtitle-language-link{
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.subitle-item-link{
+    text-decoration: none;
+}
+
 .language-subtitle-UA{
     color: #fff;
     margin-left: 15px;
-    margin-top: 10px;
     font-weight: 500;
     font-family: 'Arvo', sans-serif;
 
@@ -208,7 +223,6 @@ html{
 .language-subtitle-RU{
     color: #a7a4a4;
     margin-left: 5px;
-    margin-top: 10px;
     font-weight: 500;
     font-family: 'Arvo', sans-serif;
 }
