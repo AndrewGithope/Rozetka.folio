@@ -410,6 +410,7 @@ html{
     position: absolute;
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .img-main-item2{
@@ -418,6 +419,7 @@ html{
     position: absolute;
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .btn-information{
@@ -430,9 +432,21 @@ html{
     border-right: 1px solid rgb(72, 70, 70, 0.3);
     border-bottom: 1px solid rgb(72, 70, 70, 0.3);
     border-top: 0;
+    cursor: pointer;
 
 
 }
+
+.btn-information:hover{
+    text-decoration: underline;
+    color: #7dc6c6;
+}
+
+
+.image-main-link{
+
+}
+
 
 .main-page-title{
     margin-top: 40px;
@@ -455,6 +469,17 @@ html{
     margin: 0 20px 0 0;
     position: relative;
 }
+
+.container-main-items:hover{
+    background-color: rgb(193, 193, 189, 0.5);
+    cursor: pointer;
+}
+
+.container-main-link{
+    text-decoration: none;
+
+}
+
 
 
 .container-image1{
